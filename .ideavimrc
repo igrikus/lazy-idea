@@ -45,6 +45,9 @@ set shortmess=filnxtToOF
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins
 " https://www.lazyvim.org/plugins
 
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+
 " gcc and gc<action> mappings.
 Plug 'tpope/vim-commentary'
 
