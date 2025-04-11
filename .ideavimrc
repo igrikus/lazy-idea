@@ -147,6 +147,8 @@ nmap ]q <Action>(GotoNextError)
 " Format
 nmap <leader>cf <Action>(Format)
 vmap <leader>cf <Action>(Format)
+" Format when trying to save a file (muscle memory)
+nnoremap <C-s> <Action>(Format)
 " Line Diagnostics
 nmap <leader>cd <Action>(ActivateProblemsViewToolWindow)
 " Next Diagnostic
