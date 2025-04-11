@@ -48,6 +48,9 @@ set shortmess=filnxtToOF
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 
+" Manipulate file tree
+Plug 'preservim/nerdtree'
+
 " gcc and gc<action> mappings.
 Plug 'tpope/vim-commentary'
 
