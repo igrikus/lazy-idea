@@ -488,3 +488,9 @@ inoremap <C-W> <C-G>u<C-W>
 nnoremap Q @@
 " There are several more Neovim mappings that need to be ported.
 
+
+" IDE overwrite mappings
+" Use ctrl-c and ctrl-v as an ide shortcut in normal and visual modes
+sethandler <C-C> n-v-i:ide
+sethandler <C-v> n-v-i:ide
+sethandler <C-\\> n-v-i:ide
