@@ -28,6 +28,9 @@ set nowrap
 set ignorecase
 set smartcase
 
+" Share system clipboard with yank mode
+set clipboard+=unnamed
+
 " Neovim settings that differ from Vim
 " https://neovim.io/doc/user/diff.html
 " https://github.com/mikeslattery/nvim-defaults.vim/blob/main/plugin/.vimrc
