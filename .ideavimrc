@@ -212,7 +212,7 @@ nmap <leader>ft <Action>(ActivateTerminalToolWindow)
 " Terminal (cwd)
 nmap <leader>fT <Action>(ActivateTerminalToolWindow)
 " Terminal (Root Dir)
-nmap <C-/> <Action>(ActivateTerminalToolWindow)
+nmap <C-\> <Action>(ActivateTerminalToolWindow)
 " nmap <C-_> 'There is no equivalent mapping for <c-_>.'<cr>
 " Hide Terminal - terminal mode maps not possible
 " Split Window Below.  :split<cr> doesn't work.
@@ -292,8 +292,6 @@ nmap <leader>bp <Action>(PinActiveTabToggle)
 nmap <leader>bP <Action>(CloseAllUnpinnedEditors)
 " Delete buffers to the right
 nmap <leader>br <Action>(CloseAllToTheRight)
-
-" Neo-tree Keymaps
 
 " Buffer Explorer
 nmap <leader>be <Action>(ActivateProjectToolWindow)
