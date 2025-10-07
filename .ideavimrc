@@ -784,6 +784,23 @@ vnoremap < <gv
 " There are several more Neovim mappings that need to be ported.
 
 
+" Don't yank when cutting, deleting, or changing
+nnoremap x "_x
+vnoremap x "_x
+nnoremap d "_d
+vnoremap d "_d
+nnoremap D "_D
+vnoremap D "_D
+nnoremap c "_c
+vnoremap c "_c
+nnoremap C "_C
+vnoremap C "_C
+
+" Change record key
+nnoremap Q q
+nnoremap q <Nop>
+
+
 " IDE overwrite mappings
 " Use ctrl-c and ctrl-v as an ide shortcut in normal and visual modes
 sethandler <C-C> n-v-i:ide
