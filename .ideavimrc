@@ -474,10 +474,10 @@ let g:WhichKeyDesc_buffer_explorer = "<leader>be Buffer Explorer"
 nmap <leader>be <Action>(ActivateProjectToolWindow)
 
 let g:WhichKeyDesc_explorer = "<leader>e Explorer NeoTree (Root Dir)"
-nmap <leader>e <Action>(FileStructurePopup)
+nmap <leader>E <Action>(FileStructurePopup)
 
 let g:WhichKeyDesc_explorer_cwd = "<leader>E Explorer NeoTree (cwd)"
-nmap <leader>E <Action>(SelectInProjectView)
+nmap <leader>e <Action>(SelectInProjectView)
 
 let g:WhichKeyDesc_explorer_alt = "<leader>fe Explorer NeoTree (Root Dir)"
 nmap <leader>fe <Action>(ActivateProjectToolWindow)
