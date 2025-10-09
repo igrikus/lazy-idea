@@ -235,10 +235,10 @@ let g:WhichKeyDesc_quickfix_next = "]q Next Quickfix"
 nmap ]q <Action>(GotoNextError)
 
 let g:WhichKeyDesc_format = "<leader>cf Format"
-nmap <leader>cf <Action>(Format)
-vmap <leader>cf <Action>(Format)
+nmap <leader>cf <Action>(ReformatCode)
+vmap <leader>cf <Action>(ReformatCode)
 " Format when trying to save a file (muscle memory)
-nmap <C-s> <Action>(Format)
+nmap <C-s> <Action>(ReformatCode)
 " Line Diagnostics
 " Line Diagnostics
 
